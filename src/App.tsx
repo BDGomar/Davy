@@ -342,7 +342,7 @@ function App() {
               </p>
               <div className="cta-actions">
                 
-                <a className="btn btn-secondary" href="https://chat.whatsapp.com" target="_blank" rel="noreferrer">
+                <a className="btn btn-secondary" href="https://chat.whatsapp.com/CKXHFEnrYNj9tUue3B2p2s" target="_blank" rel="noreferrer">
                   Canal bénévoles WhatsApp
         </a>
       </div>
