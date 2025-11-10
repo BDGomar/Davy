@@ -151,10 +151,30 @@ const commitments = [
 ];
 
 const team = [
-  { name: 'Idriss Camara', role: 'Stratégie & Innovation', focus: 'Labs étudiants et hackathons interdisciplinaires.' },
-  { name: 'Marie-Agnès Kouadio', role: 'Solidarités', focus: 'Accès aux aides sociales, égalité des chances.' },
-  { name: 'Samir Benyamina', role: 'Vie de campus', focus: 'Sports & culture, partenariats associatifs UA.' },
-  { name: 'Laura Mendes', role: 'Communication', focus: 'Transparence, médias étudiants et newsletter Vista.' },
+  {
+    name: 'Collectif Vue',
+    role: 'Vision Uamoise Engagée',
+    photo: '/photo/WhatsApp Image 2025-11-10 at 10.56.54 (6).jpeg',
+    focus: 'Un parti idéal pour tous les étudiants UA.',
+  },
+  {
+    name: 'Équipe Vue',
+    role: 'Nous sommes tous engagés',
+    photo: '/photo/WhatsApp Image 2025-11-10 at 10.56.53 (7).jpeg',
+    focus: 'Cohésion et leadership au service du campus.',
+  },
+  {
+    name: 'Nous sommes en mission',
+    role: 'Pour l’innovation UA',
+    photo: '/photo/WhatsApp Image 2025-11-10 at 10.56.53 (8).jpeg',
+    focus: 'Porter la voix de chaque Uamois avec détermination.',
+  },
+  {
+    name: 'Programme V.U.E',
+    role: 'Panels · Social · Culture · Santé · Sport',
+    photo: '/photo/WhatsApp Image 2025-11-10 at 10.56.55 (7).jpeg',
+    focus: 'Un programme complet pour transformer la vie sur le campus UA.',
+  },
 ];
 
 const navigation = [
@@ -320,8 +340,8 @@ function App() {
             <div className="team-grid">
               {team.map((member) => (
                 <article key={member.name} className="teammate">
-                  <div className="brand-badge" aria-hidden="true">
-                    Vue
+                  <div className="teammate-photo-wrapper">
+                    <img src={member.photo} alt={member.name} className="teammate-photo" />
                   </div>
                   <h4>{member.name}</h4>
                   <span>{member.role}</span>
