@@ -341,9 +341,7 @@ function App() {
                 Davy Béré ? L’équipe Vue vous répond sous 24 h.
               </p>
               <div className="cta-actions">
-                <a className="btn btn-primary" href="mailto:contact@partivue.ua">
-                  contact@partivue.ua
-                </a>
+                
                 <a className="btn btn-secondary" href="https://chat.whatsapp.com" target="_blank" rel="noreferrer">
                   Canal bénévoles WhatsApp
         </a>
